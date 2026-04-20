@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- The docinfo block is the analogue to the latex preamble -->
+<!-- This is where you can define macros and other book-wide -->
+<!-- settings. -->
+<docinfo xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- A unique name for the book in a catalog; for example, see https://pretextbook.org/catalog.html and https://runestone.academy/ns/books/index. It contains a simple lowercase string with no dashes or other special characters. See https://pretextbook.org/doc/guide/html/sec-publishing-to-runestone-academy.html for more information. -->
+  <document-id>changeme</document-id>
+  <!-- A brief description for the book in a catalog; see the links above. The @shelf is used only when publishing to Runestone; see https://runestone.academy/ns/books/index for a list of valid values. You must copy these @shelf names exactly, including capitalization. -->
+  <blurb shelf="AP Computer Science"> A simple string (no markup is allowed) to describe your book. </blurb>
+
+
+  <!-- The next three lines are likely for mature projects only: -->
+
+  <!-- <brandlogo url="" source="images/cover.png"/> -->
+  <!-- <covers front="images/front.pdf" back="images/back.pdf"/> -->
+  <!-- <document-id>unique-book-id</document-id> -->
+
+  <!-- macros for defining latex math shortcuts. It is good practice -->
+  <!-- to define these semantically, so that the macro relates to what-->
+  <!-- it defines. -->
+ 
+    <rename element="theorem">Théorème</rename>
+    <rename element="definition">Définition</rename>
+    <rename element="example">Exemple</rename>
+    <rename element="corollary">Corollaire</rename>
+    <rename element="remark">Remarque</rename>
+    <rename element="hint">Indice</rename>
+    <rename element="objectives">Objectifs</rename>
+    <rename element="outcomes">Vocabulaire</rename>
+    <rename element="inlineexercise">Petit Exercice</rename>
+    <rename element="exercise">Exercice</rename>
+    <rename element="project">Exercice</rename>
+    <rename element="exercises">Exercice</rename>
+    <rename element="solution">Spoiler</rename>
+    <rename element="proof">Preuve</rename>
+    <rename element="appendix">Annexe</rename>
+
+
+  <latex-preamble>
+\usepackage{mathtools}
+\usepackage{mathrsfs}
+\usepackage{fontawesome}
+\usepackage{cancel}
+\usepackage{amsmath}
+</latex-preamble>
+
+<macros>
+\newcommand{\K}{\mathbb{K}}
+\newcommand{\Z}{\mathbb{Z}}
+\renewcommand{\L}{\mathcal L}
+\newcommand{\B}{\mathcal B}
+\newcommand{\M}{\mathcal M}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\lbb}{\,]\,}
+\newcommand{\rbb}{\,[\,}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\rg}{rg}
+\DeclareMathOperator{\Ker}{Ker}
+\DeclareMathOperator{\Id}{Id}
+\DeclareMathOperator{\Im}{Im}
+\DeclareMathOperator{\Card}{Card}
+\DeclareMathOperator{\Vect}{Vect}
+\DeclareMathOperator{\Mat}{Mat}
+\newcommand{\jmat}[1]{\left\lgroup\begin{matrix} #1 \end{matrix}\right\rgroup}
+</macros>
+
+
+
+
+  <!-- It is possible to rename elements: -->
+  <!-- <rename element="assemblage" xml:lang="en-US">Summary</rename> -->
+
+  <!-- Specify the default type of cross reference: -->
+  <!-- <cross-references text="type-global" /> -->
+
+
+</docinfo>

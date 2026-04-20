@@ -1,0 +1,42 @@
+INFO    : Building target web
+INFO    : XSL conversion of /home/caroline/pCloud_Univ/PreTeXt/pretext-al1_chap5_app-lin/new-pretext-project/source/main.ptx by /home/caroline/.ptx/2.38.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /home/caroline/.ptx/2.38.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Generating any needed assets.
+INFO    : Finished generating assets.
+
+INFO    : Preparing to build into /home/caroline/pCloud_Univ/PreTeXt/pretext-al1_chap5_app-lin/new-pretext-project/output/web.
+WARNING : Cannot find npm.  Will try to use prebuilt CSS files instead.
+WARNING : Unable to install npm packages to build css files.  Non-default CSS themes require node.js and npm to be installed.  See https://pretextbook.org/doc/guide/html/node-and-npm.html
+WARNING : 
+INFO    : discovering source file's directory name: /home/caroline/pCloud_Univ/PreTeXt/pretext-al1_chap5_app-lin/new-pretext-project/source
+INFO    : verifying and expanding input directory: /home/caroline/pCloud_Univ/PreTeXt/pretext-al1_chap5_app-lin/new-pretext-project/source/../generated-assets
+INFO    : input directory expanded to absolute path: /home/caroline/pCloud_Univ/PreTeXt/pretext-al1_chap5_app-lin/new-pretext-project/generated-assets
+INFO    : verifying and expanding input directory: /home/caroline/pCloud_Univ/PreTeXt/pretext-al1_chap5_app-lin/new-pretext-project/source/../assets
+INFO    : input directory expanded to absolute path: /home/caroline/pCloud_Univ/PreTeXt/pretext-al1_chap5_app-lin/new-pretext-project/assets
+INFO    : XSL conversion of /home/caroline/pCloud_Univ/PreTeXt/pretext-al1_chap5_app-lin/new-pretext-project/source/main.ptx by /home/caroline/.ptx/2.38.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /home/caroline/.ptx/2.38.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 7.13.5
+INFO    : Downloading Runestone Services, version 7.13.5
+INFO    : Extracting Runestone Services from archive file
+INFO    : CSSBuilder packages not installed. Relying on prebuilt default-modern. To fix this, run 'npm install' in the pretext/script/cssbuilder directory. https://pretextbook.org/doc/guide/html/node-and-npm.html
+INFO    : Using prebuilt CSS theme: default-modern with options: {'options': {'primary-color': '#195684', 'secondary-color': '#932c1c'}, 'contrast-checks': {'primary-color': '#fff', 'secondary-color': '#fff', 'primary-color-dark': '#23241f'}}
+INFO    : converting /home/caroline/pCloud_Univ/PreTeXt/pretext-al1_chap5_app-lin/new-pretext-project/source/main.ptx to HTML in /tmp/ptx-4feir9gc
+INFO    : XSL conversion of /home/caroline/pCloud_Univ/PreTeXt/pretext-al1_chap5_app-lin/new-pretext-project/source/main.ptx by /home/caroline/.ptx/2.38.0/core/xsl/pretext-html.xsl
+INFO    : messages from the log for XSL processing:
+INFO    : * PTX:INFO:   checking all deprecated elements.
+WARNING : * PTX:DEPRECATE: (2023-10-17) the "docinfo/latex-preamble" element no longer has a purpose.  Remove the element and adjust any contained "package" elements.  Then this warning will cease. (1 time)
+INFO    : * --------------
+WARNING : * PTX:WARNING: Unstructured content within a list item is being ignored (".")
+INFO    : *              located within: "Exercice 2" (title)
+INFO    : *              located within: "Cherchez l'erreur" (title)
+INFO    : successful application of /home/caroline/.ptx/2.38.0/core/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /tmp/ptx-4feir9gc
+INFO    : Removing temporary directory /tmp/ptx-rmuraefm
+INFO    : 
+Finished build for target web. Run `pretext view web` to see the results.
+
+INFO    : 
+Success!  Built requested target(s) without errors.
+
+INFO    : 
