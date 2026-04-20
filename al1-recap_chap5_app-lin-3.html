@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>— Testez vos réflexes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="article">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.13.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.52176322e2c1dde5.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.bbf2283c5c1d4f99.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.b12a7b3f0773ebcd.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext article ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="al1-recap_chap5_app-lin.html"><span class="title">Applications linéaires</span></a></h1>
+<p class="byline"></p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="al1-recap_chap5_app-lin.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="al1-recap_chap5_app-lin.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="al1-recap_chap5_app-lin-4.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\K}{\mathbb{K}}
+\newcommand{\Z}{\mathbb{Z}}
+\renewcommand{\L}{\mathcal L}
+\newcommand{\B}{\mathcal B}
+\newcommand{\M}{\mathcal M}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\lbb}{\,]\,}
+\newcommand{\rbb}{\,[\,}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\rg}{rg}
+\DeclareMathOperator{\Ker}{Ker}
+\DeclareMathOperator{\Id}{Id}
+\DeclareMathOperator{\Im}{Im}
+\DeclareMathOperator{\Card}{Card}
+\DeclareMathOperator{\Vect}{Vect}
+\DeclareMathOperator{\Mat}{Mat}
+\newcommand{\jmat}[1]{\left\lgroup\begin{matrix} #1 \end{matrix}\right\rgroup}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth1 focused" data-preexpanded-levels="0" data-max-levels="1"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="al1-recap_chap5_app-lin-3.html" class="internal"><span class="codenumber">1</span> <span class="title">— Testez vos réflexes</span></a></div>
+<ul class="structural toc-item-list active">
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-3.html#al1-recap_chap5_app-lin-3-2" class="internal"><span class="codenumber">1</span> <span class="title">Sur l’image et le noyau</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-3.html#al1-recap_chap5_app-lin-3-3" class="internal"><span class="codenumber">1</span> <span class="title">Sur la composée d’applications linéaires</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-3.html#al1-recap_chap5_app-lin-3-4" class="internal"><span class="codenumber">1</span> <span class="title">Sur le lien entre dimension, injectivité et surjectivité</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-3.html#al1-recap_chap5_app-lin-3-5" class="internal"><span class="codenumber">1</span> <span class="title">Sur les endomorphismes de <span class="process-math">\(\R\)</span> et <span class="process-math">\(\R^2\)</span></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="al1-recap_chap5_app-lin-4.html" class="internal"><span class="codenumber">2</span> <span class="title">— Testez vos réflexes, deuxième partie</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-4.html#al1-recap_chap5_app-lin-4-2" class="internal"><span class="codenumber">2</span> <span class="title">Une matrice, plusieurs applications</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-4.html#al1-recap_chap5_app-lin-4-3" class="internal"><span class="codenumber">2</span> <span class="title">Définition de la matrice d’une application linéaire</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-4.html#al1-recap_chap5_app-lin-4-4" class="internal"><span class="codenumber">2</span> <span class="title">Matrices de projection ou symétrie</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="al1-recap_chap5_app-lin-5.html" class="internal"><span class="codenumber">3</span> <span class="title">— Entraînez-vous : Applications linéaires</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-5.html#al1-recap_chap5_app-lin-5-2" class="internal"><span class="codenumber">3</span> <span class="title">Est-ce une application linéaire ?</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-5.html#al1-recap_chap5_app-lin-5-3" class="internal"><span class="codenumber">3</span> <span class="title">Avec un paramètre</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="al1-recap_chap5_app-lin-6.html" class="internal"><span class="codenumber">4</span> <span class="title">— Entraînez-vous ! Image et noyau</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-6.html#al1-recap_chap5_app-lin-6-3" class="internal"><span class="codenumber">4</span> <span class="title">Exercice 1</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-6.html#al1-recap_chap5_app-lin-6-4" class="internal"><span class="codenumber">4</span> <span class="title">Exercice 2</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-6.html#al1-recap_chap5_app-lin-6-5" class="internal"><span class="codenumber">4</span> <span class="title">Exercice 3</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-6.html#al1-recap_chap5_app-lin-6-6" class="internal"><span class="codenumber">4</span> <span class="title">Exercice 4</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-6.html#al1-recap_chap5_app-lin-6-7" class="internal"><span class="codenumber">4</span> <span class="title">Exercice 5</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-6.html#al1-recap_chap5_app-lin-6-8" class="internal"><span class="codenumber">4</span> <span class="title">Exercice 6</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-6.html#al1-recap_chap5_app-lin-6-9" class="internal"><span class="codenumber">4</span> <span class="title">Exercice 7</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-6.html#al1-recap_chap5_app-lin-6-10" class="internal"><span class="codenumber">4</span> <span class="title">Exercice 8</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="al1-recap_chap5_app-lin-7.html" class="internal"><span class="codenumber">5</span> <span class="title">— Entraînez-vous ! Matrices et applications linéaires</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-7.html#al1-recap_chap5_app-lin-7-11" class="internal"><span class="codenumber">5</span> <span class="title">Exercice 1</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-7.html#al1-recap_chap5_app-lin-7-12" class="internal"><span class="codenumber">5</span> <span class="title">Exercice 2</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-7.html#al1-recap_chap5_app-lin-7-13" class="internal"><span class="codenumber">5</span> <span class="title">Exercice 3</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-7.html#al1-recap_chap5_app-lin-7-14" class="internal"><span class="codenumber">5</span> <span class="title">Exercice 4</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="al1-recap_chap5_app-lin-8.html" class="internal"><span class="codenumber">6</span> <span class="title">— Testez vos réflexes : taille des matrices</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-8.html#al1-recap_chap5_app-lin-8-2" class="internal"><span class="codenumber">6</span> <span class="title">Taille des matrices</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="al1-recap_chap5_app-lin-9.html" class="internal"><span class="codenumber">7</span> <span class="title">— Entraînez-vous ! Dans d’autres espaces vectoriels</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-9.html#al1-recap_chap5_app-lin-9-2" class="internal"><span class="codenumber">7</span> <span class="title">Exercice 1</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-9.html#al1-recap_chap5_app-lin-9-3" class="internal"><span class="codenumber">7</span> <span class="title">Exercice 2</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-9.html#al1-recap_chap5_app-lin-9-4" class="internal"><span class="codenumber">7</span> <span class="title">Exercice 3</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-9.html#al1-recap_chap5_app-lin-9-5" class="internal"><span class="codenumber">7</span> <span class="title">Exercice 4</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-9.html#al1-recap_chap5_app-lin-9-6" class="internal"><span class="codenumber">7</span> <span class="title">Exercice 5</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-9.html#al1-recap_chap5_app-lin-9-7" class="internal"><span class="codenumber">7</span> <span class="title">Exercice 6</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-9.html#al1-recap_chap5_app-lin-9-8" class="internal"><span class="codenumber">7</span> <span class="title">Exercice 7</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-9.html#al1-recap_chap5_app-lin-9-9" class="internal"><span class="codenumber">7</span> <span class="title">Exercice 8</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-9.html#al1-recap_chap5_app-lin-9-10" class="internal"><span class="codenumber">7</span> <span class="title">Exercice 9</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-9.html#al1-recap_chap5_app-lin-9-11" class="internal"><span class="codenumber">7</span> <span class="title">Exercice 10</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-9.html#al1-recap_chap5_app-lin-9-12" class="internal"><span class="codenumber">7</span> <span class="title">Exercice 11</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-9.html#al1-recap_chap5_app-lin-9-13" class="internal"><span class="codenumber">7</span> <span class="title">Exercice 12</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-9.html#al1-recap_chap5_app-lin-9-14" class="internal"><span class="codenumber">7</span> <span class="title">Exercice 13</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-9.html#al1-recap_chap5_app-lin-9-15" class="internal"><span class="codenumber">7</span> <span class="title">Exercice 14</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-9.html#al1-recap_chap5_app-lin-9-16" class="internal"><span class="codenumber">7</span> <span class="title">Exercice 15</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="al1-recap_chap5_app-lin-10.html" class="internal"><span class="codenumber">8</span> <span class="title">— Erreurs à ne pas faire</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="al1-recap_chap5_app-lin-10.html#al1-recap_chap5_app-lin-10-2" class="internal"><span class="codenumber">8</span> <span class="title">Cherchez l’erreur</span></a></div></li></ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="al1-recap_chap5_app-lin-3"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">— Testez vos réflexes</span>
+</h2>
+<section class="exercises" id="al1-recap_chap5_app-lin-3-2"><h3 class="heading hide-type">
+<span class="type">Exercice</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sur l’image et le noyau</span>
+</h3>
+<article class="exercise exercise-like" id="al1-recap_chap5_app-lin-3-2-2"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="ptx-runestone-container"><div class="runestone multiplechoice_section"><ul data-component="multiplechoice" data-multipleanswers="false">
+<div class="para" id="al1-recap_chap5_app-lin-3-2-2-1-1">Soient <span class="process-math">\(E,F\)</span> deux espaces vectoriels, et soit <span class="process-math">\(f\in \L(E,F)\)</span> une application linéaire.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-2-2-1-2">Alors <span class="process-math">\(f\)</span> est injective si, et seulement si, <span class="process-math">\(\Ker(f)\)</span> est vide.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-2-2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-2-2-1-3"><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-2-2-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<li data-component="answer" id="_opt_t"><p>True.</p></li>
+<li data-component="feedback" id="_opt_t">
+<div class="para" id="al1-recap_chap5_app-lin-3-2-2-2-1">C’est faux ! Quelle que soit l’application linéaire <span class="process-math">\(f\text{,}\)</span> <span class="process-math">\(\Ker(f)\)</span> n’est jamais vide. En effet, on a toujours <span class="process-math">\(f(0_E)=0_F\text{,}\)</span> donc <span class="process-math">\(0_E\in \Ker(f)\text{.}\)</span>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-2-2-2-2">
+<span class="process-math">\(\leadsto\)</span> <span class="process-math">\(\Ker(f)\)</span> contient au moins le vecteur nul, qui certes, n’est pas fascinant, mais existe quand même ! Pour le dire autrement,</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-2-2-2-3">
+\begin{equation*}
+\{0_E\} \neq \emptyset
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-2-2-2-4">Et ça n’empêche pas les applications linéaires de parfois être injectives: par exemple, l’application identité</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-2-2-2-5">
+\begin{equation*}
+f:u\in E \mapsto u\in E
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-2-2-2-6">est injective <details class="ptx-footnote" aria-live="polite" id="al1-recap_chap5_app-lin-3-2-2-2-6-1"><summary class="ptx-footnote__number" title="Footnote 1.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="al1-recap_chap5_app-lin-3-2-2-2-6-1">montrez-le !</div></details>, bien que <span class="process-math">\(\Ker(f)=\{0_E\}\neq \emptyset\text{.}\)</span>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-2-2-2-7">
+<dfn class="terminology">Remarque:</dfn> Par contre, pour que <span class="process-math">\(f\in \L(E,F)\)</span> soit injective, il faut que le noyau de <span class="process-math">\(f\)</span> ne contienne <em class="emphasis">que</em> le vecteur nul, c’est-à-dire <span class="process-math">\(\Ker(f)=\{0_E\}\text{.}\)</span>
+</div>
+</li>
+<li data-component="answer" id="_opt_f" data-correct=""><p>False.</p></li>
+<li data-component="feedback" id="_opt_f">
+<div class="para" id="al1-recap_chap5_app-lin-3-2-2-2-1">C’est faux ! Quelle que soit l’application linéaire <span class="process-math">\(f\text{,}\)</span> <span class="process-math">\(\Ker(f)\)</span> n’est jamais vide. En effet, on a toujours <span class="process-math">\(f(0_E)=0_F\text{,}\)</span> donc <span class="process-math">\(0_E\in \Ker(f)\text{.}\)</span>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-2-2-2-2">
+<span class="process-math">\(\leadsto\)</span> <span class="process-math">\(\Ker(f)\)</span> contient au moins le vecteur nul, qui certes, n’est pas fascinant, mais existe quand même ! Pour le dire autrement,</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-2-2-2-3">
+\begin{equation*}
+\{0_E\} \neq \emptyset
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-2-2-2-4">Et ça n’empêche pas les applications linéaires de parfois être injectives: par exemple, l’application identité</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-2-2-2-5">
+\begin{equation*}
+f:u\in E \mapsto u\in E
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-2-2-2-6">est injective <details class="ptx-footnote" aria-live="polite" id="al1-recap_chap5_app-lin-3-2-2-2-6-1"><summary class="ptx-footnote__number" title="Footnote 1.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="al1-recap_chap5_app-lin-3-2-2-2-6-1">montrez-le !</div></details>, bien que <span class="process-math">\(\Ker(f)=\{0_E\}\neq \emptyset\text{.}\)</span>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-2-2-2-7">
+<dfn class="terminology">Remarque:</dfn> Par contre, pour que <span class="process-math">\(f\in \L(E,F)\)</span> soit injective, il faut que le noyau de <span class="process-math">\(f\)</span> ne contienne <em class="emphasis">que</em> le vecteur nul, c’est-à-dire <span class="process-math">\(\Ker(f)=\{0_E\}\text{.}\)</span>
+</div>
+</li>
+</ul></div></div>
+<div class="autopermalink" data-description="Exercise 1.1"><a href="#al1-recap_chap5_app-lin-3-2-2" title="Copy heading and permalink for Exercise 1.1" aria-label="Copy heading and permalink for Exercise 1.1">🔗</a></div></article><article class="exercise exercise-like" id="al1-recap_chap5_app-lin-3-2-3"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="ptx-runestone-container"><div class="runestone multiplechoice_section"><ul data-component="multiplechoice" data-multipleanswers="false">
+<div class="para" id="al1-recap_chap5_app-lin-3-2-3-1-1">Soient <span class="process-math">\(E,F\)</span> un espace vectoriel, et soit <span class="process-math">\(f\in \L(E,F)\)</span> une application linéaire.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-2-3-1-2">Alors <span class="process-math">\(f\)</span> soit <span class="process-math">\(\Im(f)\)</span> a un seul élément, soit <span class="process-math">\(\Im(f)\)</span> est infini.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-2-3-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-2-3-1-3"><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-2-3-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<li data-component="answer" id="_opt_t" data-correct=""><p>True.</p></li>
+<li data-component="feedback" id="_opt_t">
+<div class="para" id="al1-recap_chap5_app-lin-3-2-3-2-1">C’est vrai !</div> <div class="para" id="al1-recap_chap5_app-lin-3-2-3-2-2">Pour le voir, prenons <span class="process-math">\(f\in \L(E,F)\text{.}\)</span> Il y a deux cas:</div> <ul class="disc" id="al1-recap_chap5_app-lin-3-2-3-2-3">
+<li id="al1-recap_chap5_app-lin-3-2-3-2-3-1">
+<div class="para" id="al1-recap_chap5_app-lin-3-2-3-2-3-1-1">
+<dfn class="terminology">Cas 1:</dfn> <span class="process-math">\(f(u)=0_F\)</span> pour tout vecteur <span class="process-math">\(u\in E\text{:}\)</span> dans ce cas,<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-2-3-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-2-3-2-3-1-2">
+\begin{equation*}
+\Im(f)=\{f(u),u\in E\}=\{0_F\}
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-2-3-2-3-1-3">donc <span class="process-math">\(\Im(f)\)</span> a un seul élément.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-2-3-2-3-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#al1-recap_chap5_app-lin-3-2-3-2-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="al1-recap_chap5_app-lin-3-2-3-2-3-2">
+<div class="para" id="al1-recap_chap5_app-lin-3-2-3-2-3-2-1">
+<dfn class="terminology">Cas 2:</dfn> il existe un vecteur <span class="process-math">\(u\in E\)</span> tel que <span class="process-math">\(f(u)\neq 0_F\text{.}\)</span> Mais dans ce cas, pour n’importe quel réel <span class="process-math">\(\lambda\text{,}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-2-3-2-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-2-3-2-3-2-2">
+\begin{equation*}
+f(\lambda u)\in \Im(f),\text{ or } f(\lambda u)=\lambda f(u) \text{ donc }\lambda f(u)\in \Im(f)
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-2-3-2-3-2-3">et comme <span class="process-math">\(f(u)\neq 0_F\text{,}\)</span> si <span class="process-math">\(\lambda_1\neq \lambda_2\text{,}\)</span> alors <span class="process-math">\(\lambda_1 f(u)\neq \lambda_2 f(u)\)</span> <details class="ptx-footnote" aria-live="polite" id="al1-recap_chap5_app-lin-3-2-3-2-3-2-3-4"><summary class="ptx-footnote__number" title="Footnote 1.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="al1-recap_chap5_app-lin-3-2-3-2-3-2-3-4">pourquoi, au fait ?</div></details>.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-2-3-2-3-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-2-3-2-3-2-4">Donc <span class="process-math">\(\Im(f)\)</span> contient les vecteurs <span class="process-math">\(\lambda f(u),\lambda\in\mathbb{R}\text{,}\)</span> qui sont tous différents, donc <span class="process-math">\(\Im(f)\)</span> est un ensemble infini.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-2-3-2-3-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#al1-recap_chap5_app-lin-3-2-3-2-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+</li>
+<li data-component="answer" id="_opt_f"><p>False.</p></li>
+<li data-component="feedback" id="_opt_f">
+<div class="para" id="al1-recap_chap5_app-lin-3-2-3-2-1">C’est vrai !</div> <div class="para" id="al1-recap_chap5_app-lin-3-2-3-2-2">Pour le voir, prenons <span class="process-math">\(f\in \L(E,F)\text{.}\)</span> Il y a deux cas:</div> <ul class="disc" id="al1-recap_chap5_app-lin-3-2-3-2-3">
+<li id="al1-recap_chap5_app-lin-3-2-3-2-3-1">
+<div class="para" id="al1-recap_chap5_app-lin-3-2-3-2-3-1-1">
+<dfn class="terminology">Cas 1:</dfn> <span class="process-math">\(f(u)=0_F\)</span> pour tout vecteur <span class="process-math">\(u\in E\text{:}\)</span> dans ce cas,<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-2-3-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-2-3-2-3-1-2">
+\begin{equation*}
+\Im(f)=\{f(u),u\in E\}=\{0_F\}
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-2-3-2-3-1-3">donc <span class="process-math">\(\Im(f)\)</span> a un seul élément.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-2-3-2-3-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#al1-recap_chap5_app-lin-3-2-3-2-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="al1-recap_chap5_app-lin-3-2-3-2-3-2">
+<div class="para" id="al1-recap_chap5_app-lin-3-2-3-2-3-2-1">
+<dfn class="terminology">Cas 2:</dfn> il existe un vecteur <span class="process-math">\(u\in E\)</span> tel que <span class="process-math">\(f(u)\neq 0_F\text{.}\)</span> Mais dans ce cas, pour n’importe quel réel <span class="process-math">\(\lambda\text{,}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-2-3-2-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-2-3-2-3-2-2">
+\begin{equation*}
+f(\lambda u)\in \Im(f),\text{ or } f(\lambda u)=\lambda f(u) \text{ donc }\lambda f(u)\in \Im(f)
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-2-3-2-3-2-3">et comme <span class="process-math">\(f(u)\neq 0_F\text{,}\)</span> si <span class="process-math">\(\lambda_1\neq \lambda_2\text{,}\)</span> alors <span class="process-math">\(\lambda_1 f(u)\neq \lambda_2 f(u)\)</span> <details class="ptx-footnote" aria-live="polite" id="al1-recap_chap5_app-lin-3-2-3-2-3-2-3-4"><summary class="ptx-footnote__number" title="Footnote 1.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="al1-recap_chap5_app-lin-3-2-3-2-3-2-3-4">pourquoi, au fait ?</div></details>.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-2-3-2-3-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-2-3-2-3-2-4">Donc <span class="process-math">\(\Im(f)\)</span> contient les vecteurs <span class="process-math">\(\lambda f(u),\lambda\in\mathbb{R}\text{,}\)</span> qui sont tous différents, donc <span class="process-math">\(\Im(f)\)</span> est un ensemble infini.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-2-3-2-3-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#al1-recap_chap5_app-lin-3-2-3-2-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+</li>
+</ul></div></div>
+<div class="autopermalink" data-description="Exercise 1.2"><a href="#al1-recap_chap5_app-lin-3-2-3" title="Copy heading and permalink for Exercise 1.2" aria-label="Copy heading and permalink for Exercise 1.2">🔗</a></div></article><div class="autopermalink" data-description="Exercice 1: Sur l’image et le noyau"><a href="#al1-recap_chap5_app-lin-3-2" title="Copy heading and permalink for Exercice 1: Sur l’image et le noyau" aria-label="Copy heading and permalink for Exercice 1: Sur l’image et le noyau">🔗</a></div></section><section class="exercises" id="al1-recap_chap5_app-lin-3-3"><h3 class="heading hide-type">
+<span class="type">Exercice</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sur la composée d’applications linéaires</span>
+</h3>
+<article class="exercise exercise-like" id="al1-recap_chap5_app-lin-3-3-2"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="ptx-runestone-container"><div class="runestone multiplechoice_section"><ul data-component="multiplechoice" data-multipleanswers="false">
+<div class="para" id="al1-recap_chap5_app-lin-3-3-2-1-1">Soit <span class="process-math">\(E\)</span> un espace vectoriel et soit <span class="process-math">\(f\in L(E)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-2-1-2">On suppose que <span class="process-math">\(f^2=0_{\L(E)}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-2-1-3">Alors <span class="process-math">\(f=0_{\L(E)}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-2-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-2-1-4"><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-2-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<li data-component="answer" id="_opt_t"><p>True.</p></li>
+<li data-component="feedback" id="_opt_t">
+<div class="para" id="al1-recap_chap5_app-lin-3-3-2-3-1">C’est faux !</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-2-3-2">L’implication</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-3-2-3-3">
+\begin{equation*}
+f\circ f=0_{\L(E)} \Rightarrow f=0_{\L(E)}
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-3-2-3-4">n’est pas forcément vérifiée.</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-2-3-5"></div> <div class="para" id="al1-recap_chap5_app-lin-3-3-2-3-6">Considérons par exemple l’endomorphisme de <span class="process-math">\(\mathbb{R}^2\)</span> défini par</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-3-2-3-7">
+\begin{equation*}
+f:\jmat{x\\y}\in\mathbb{R}^2 \mapsto \jmat{y\\0}\in\mathbb{R}^2
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-3-2-3-8">Alors, pour tout <span class="process-math">\(\jmat{x\\y}\in\mathbb{R}^2\text{,}\)</span>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-3-2-3-9">
+\begin{equation*}
+f\circ f\jmat{x\\y}=f\left(f\jmat{x\\y}\right)= f\jmat{y\\0}=\jmat{0\\0}
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-3-2-3-10">donc <span class="process-math">\(f\circ f = 0_{\L(\mathbb{R}^2)}\text{,}\)</span> mais</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-3-2-3-11">
+\begin{equation*}
+f\jmat{1\\218}=\jmat{218\\0}\neq 0_{R^2}
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-3-2-3-12">donc <span class="process-math">\(f\neq 0_{\L(\mathbb{R}^2)}\)</span>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-2-3-13">
+<dfn class="terminology">Remarque:</dfn> Par contre, l’implication réciproque est vraie: si <span class="process-math">\(f = 0_{\L(E)}\text{,}\)</span> alors on a, pour tout <span class="process-math">\(u\in E\text{,}\)</span>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-3-2-3-14">
+\begin{equation*}
+f\circ f(u)=f(f(u))=f(0_E)=0_E
+\end{equation*}
+</div>
+</li>
+<li data-component="answer" id="_opt_f" data-correct=""><p>False.</p></li>
+<li data-component="feedback" id="_opt_f">
+<div class="para" id="al1-recap_chap5_app-lin-3-3-2-3-1">C’est faux !</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-2-3-2">L’implication</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-3-2-3-3">
+\begin{equation*}
+f\circ f=0_{\L(E)} \Rightarrow f=0_{\L(E)}
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-3-2-3-4">n’est pas forcément vérifiée.</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-2-3-5"></div> <div class="para" id="al1-recap_chap5_app-lin-3-3-2-3-6">Considérons par exemple l’endomorphisme de <span class="process-math">\(\mathbb{R}^2\)</span> défini par</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-3-2-3-7">
+\begin{equation*}
+f:\jmat{x\\y}\in\mathbb{R}^2 \mapsto \jmat{y\\0}\in\mathbb{R}^2
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-3-2-3-8">Alors, pour tout <span class="process-math">\(\jmat{x\\y}\in\mathbb{R}^2\text{,}\)</span>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-3-2-3-9">
+\begin{equation*}
+f\circ f\jmat{x\\y}=f\left(f\jmat{x\\y}\right)= f\jmat{y\\0}=\jmat{0\\0}
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-3-2-3-10">donc <span class="process-math">\(f\circ f = 0_{\L(\mathbb{R}^2)}\text{,}\)</span> mais</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-3-2-3-11">
+\begin{equation*}
+f\jmat{1\\218}=\jmat{218\\0}\neq 0_{R^2}
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-3-2-3-12">donc <span class="process-math">\(f\neq 0_{\L(\mathbb{R}^2)}\)</span>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-2-3-13">
+<dfn class="terminology">Remarque:</dfn> Par contre, l’implication réciproque est vraie: si <span class="process-math">\(f = 0_{\L(E)}\text{,}\)</span> alors on a, pour tout <span class="process-math">\(u\in E\text{,}\)</span>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-3-2-3-14">
+\begin{equation*}
+f\circ f(u)=f(f(u))=f(0_E)=0_E
+\end{equation*}
+</div>
+</li>
+</ul></div></div>
+<div class="solutions"><details id="al1-recap_chap5_app-lin-3-3-2-2" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Indice</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="al1-recap_chap5_app-lin-3-3-2-2-1">Attention à la notation bizarre: quand <span class="process-math">\(f\)</span> est un endomorphisme, <span class="process-math">\(f^2 = f\circ f\text{,}\)</span> (et non <span class="process-math">\(f\)</span> au carré, qui n’existe pas).<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-3-2-2-2">Autrement dit, ce qu’on suppose, c’est que pour tout <span class="process-math">\(u\in E\text{,}\)</span> <span class="process-math">\(f(f(u))=0_E\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-2-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Indice 1.1.1"><a href="#al1-recap_chap5_app-lin-3-3-2-2" title="Copy heading and permalink for Indice 1.1.1" aria-label="Copy heading and permalink for Indice 1.1.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Exercise 1.1"><a href="#al1-recap_chap5_app-lin-3-3-2" title="Copy heading and permalink for Exercise 1.1" aria-label="Copy heading and permalink for Exercise 1.1">🔗</a></div></article><article class="exercise exercise-like" id="al1-recap_chap5_app-lin-3-3-3"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="ptx-runestone-container"><div class="runestone multiplechoice_section"><ul data-component="multiplechoice" data-multipleanswers="false">
+<div class="para" id="al1-recap_chap5_app-lin-3-3-3-1-1">Soit <span class="process-math">\(E\)</span> un espace vectoriel et soit <span class="process-math">\(f\in \L(E)\text{,}\)</span> <span class="process-math">\(f\neq \Id\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-3-1-2">On suppose que <span class="process-math">\(f\circ f=f\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-3-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-3-1-3">Alors, <span class="process-math">\(E= \Ker(f) \oplus \Im(f)\)</span> et <span class="process-math">\(f\)</span> est la symétrie par rapport à <span class="process-math">\(\Im(f)\)</span> parallèlement à <span class="process-math">\(\Ker(f)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-3-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-3-1-4"><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-3-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<li data-component="answer" id="_opt_t"><p>True.</p></li>
+<li data-component="feedback" id="_opt_t">
+<div class="para" id="al1-recap_chap5_app-lin-3-3-3-2-1">C’est faux !</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-3-2-2">Dans ce cas, on a effectivement <span class="process-math">\(E= \Ker(f) \oplus \Im(f)\text{,}\)</span> mais  <span class="process-math">\(f\)</span> est une <em class="emphasis">projection</em>, et non une symétrie. En effet, une symétrie est bijective, et donc on aurait <span class="process-math">\(\Ker(f) = \{0_E\}\text{.}\)</span> Mais alors, on aurait <span class="process-math">\(\Im(f) = E\)</span> et <span class="process-math">\(f=\Id\text{,}\)</span> ce qui contredit nos hypothèses.</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-3-2-3">Vérifions que <span class="process-math">\(E= \Ker(f) \oplus \Im(f)\text{.}\)</span>
+</div> <ul class="disc" id="al1-recap_chap5_app-lin-3-3-3-2-4">
+<li id="al1-recap_chap5_app-lin-3-3-3-2-4-1">
+<div class="para" id="al1-recap_chap5_app-lin-3-3-3-2-4-1-1">Soit <span class="process-math">\(v\in \Ker(f)\cap \Im(f)\text{.}\)</span> Alors <span class="process-math">\(f(v)=0_E\)</span> puisque <span class="process-math">\(v\in\Ker(f)\text{,}\)</span> et on a un <span class="process-math">\(u \in E\)</span> tel que <span class="process-math">\(v=f(u)\)</span> puisque <span class="process-math">\(v\in\Im(f)\text{.}\)</span> Mais du coup, comme <span class="process-math">\(f\circ f = f\text{,}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-3-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-3-3-2-4-1-2">
+\begin{equation*}
+v = f(u) = f(f(u)) = f(v) = 0_E
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-3-3-2-4-1-3">donc, <span class="process-math">\(v=0_E\text{,}\)</span> et on a montré que <span class="process-math">\(\Ker(f) \cap \Im(f) = \{0_E\}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-3-2-4-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#al1-recap_chap5_app-lin-3-3-3-2-4-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="al1-recap_chap5_app-lin-3-3-3-2-4-2">
+<div class="para" id="al1-recap_chap5_app-lin-3-3-3-2-4-2-1">Soit <span class="process-math">\(u \in E\text{,}\)</span> montrons que <span class="process-math">\(u\)</span> se décompose en <span class="process-math">\(u=v+w\)</span> avec <span class="process-math">\(v\in \Ker(f)\)</span> et <span class="process-math">\(w\in \Im(f)\text{..}\)</span> Remarquons que <span class="process-math">\(u = u-f(u) + f(u)\text{;}\)</span> clairement, <span class="process-math">\(f(u)\in \Im(u)\text{,}\)</span> et d’un autre côté, si on note <span class="process-math">\(v=u-f(u)\text{,}\)</span> alors<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-3-2-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-3-3-2-4-2-2">
+\begin{equation*}
+f(v)=f(u-f(u))= f(u) - f(f(u)) = f(u) - f(u) = 0_E
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-3-3-2-4-2-3">donc <span class="process-math">\(v\in \Ker(f)\text{.}\)</span> On peut donc prendre <span class="process-math">\(v=u-f(u)\)</span> et <span class="process-math">\(w = f(u)\)</span> et on a la décomposition souhaitée.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-3-2-4-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#al1-recap_chap5_app-lin-3-3-3-2-4-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul> <div class="para" id="al1-recap_chap5_app-lin-3-3-3-2-5">De là, si on prend <span class="process-math">\(u\in E\text{,}\)</span> avec sa décomposition <span class="process-math">\(u=v+w\text{,}\)</span> alors comme on a vu, <span class="process-math">\(w=f(u)\text{,}\)</span> et donc <span class="process-math">\(f\)</span> est la projection sur <span class="process-math">\(\Im(f)\)</span> parallèlement à <span class="process-math">\(\Ker(f)\text{.}\)</span>
+</div>
+</li>
+<li data-component="answer" id="_opt_f" data-correct=""><p>False.</p></li>
+<li data-component="feedback" id="_opt_f">
+<div class="para" id="al1-recap_chap5_app-lin-3-3-3-2-1">C’est faux !</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-3-2-2">Dans ce cas, on a effectivement <span class="process-math">\(E= \Ker(f) \oplus \Im(f)\text{,}\)</span> mais  <span class="process-math">\(f\)</span> est une <em class="emphasis">projection</em>, et non une symétrie. En effet, une symétrie est bijective, et donc on aurait <span class="process-math">\(\Ker(f) = \{0_E\}\text{.}\)</span> Mais alors, on aurait <span class="process-math">\(\Im(f) = E\)</span> et <span class="process-math">\(f=\Id\text{,}\)</span> ce qui contredit nos hypothèses.</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-3-2-3">Vérifions que <span class="process-math">\(E= \Ker(f) \oplus \Im(f)\text{.}\)</span>
+</div> <ul class="disc" id="al1-recap_chap5_app-lin-3-3-3-2-4">
+<li id="al1-recap_chap5_app-lin-3-3-3-2-4-1">
+<div class="para" id="al1-recap_chap5_app-lin-3-3-3-2-4-1-1">Soit <span class="process-math">\(v\in \Ker(f)\cap \Im(f)\text{.}\)</span> Alors <span class="process-math">\(f(v)=0_E\)</span> puisque <span class="process-math">\(v\in\Ker(f)\text{,}\)</span> et on a un <span class="process-math">\(u \in E\)</span> tel que <span class="process-math">\(v=f(u)\)</span> puisque <span class="process-math">\(v\in\Im(f)\text{.}\)</span> Mais du coup, comme <span class="process-math">\(f\circ f = f\text{,}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-3-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-3-3-2-4-1-2">
+\begin{equation*}
+v = f(u) = f(f(u)) = f(v) = 0_E
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-3-3-2-4-1-3">donc, <span class="process-math">\(v=0_E\text{,}\)</span> et on a montré que <span class="process-math">\(\Ker(f) \cap \Im(f) = \{0_E\}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-3-2-4-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#al1-recap_chap5_app-lin-3-3-3-2-4-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="al1-recap_chap5_app-lin-3-3-3-2-4-2">
+<div class="para" id="al1-recap_chap5_app-lin-3-3-3-2-4-2-1">Soit <span class="process-math">\(u \in E\text{,}\)</span> montrons que <span class="process-math">\(u\)</span> se décompose en <span class="process-math">\(u=v+w\)</span> avec <span class="process-math">\(v\in \Ker(f)\)</span> et <span class="process-math">\(w\in \Im(f)\text{..}\)</span> Remarquons que <span class="process-math">\(u = u-f(u) + f(u)\text{;}\)</span> clairement, <span class="process-math">\(f(u)\in \Im(u)\text{,}\)</span> et d’un autre côté, si on note <span class="process-math">\(v=u-f(u)\text{,}\)</span> alors<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-3-2-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-3-3-2-4-2-2">
+\begin{equation*}
+f(v)=f(u-f(u))= f(u) - f(f(u)) = f(u) - f(u) = 0_E
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-3-3-2-4-2-3">donc <span class="process-math">\(v\in \Ker(f)\text{.}\)</span> On peut donc prendre <span class="process-math">\(v=u-f(u)\)</span> et <span class="process-math">\(w = f(u)\)</span> et on a la décomposition souhaitée.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-3-2-4-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#al1-recap_chap5_app-lin-3-3-3-2-4-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul> <div class="para" id="al1-recap_chap5_app-lin-3-3-3-2-5">De là, si on prend <span class="process-math">\(u\in E\text{,}\)</span> avec sa décomposition <span class="process-math">\(u=v+w\text{,}\)</span> alors comme on a vu, <span class="process-math">\(w=f(u)\text{,}\)</span> et donc <span class="process-math">\(f\)</span> est la projection sur <span class="process-math">\(\Im(f)\)</span> parallèlement à <span class="process-math">\(\Ker(f)\text{.}\)</span>
+</div>
+</li>
+</ul></div></div>
+<div class="solutions"><details id="al1-recap_chap5_app-lin-3-3-3-3" class="hint solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Indice</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="hint solution-like knowl__content">
+<div class="para" id="al1-recap_chap5_app-lin-3-3-3-3-1">Quel est le noyau d’une symétrie ?<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Indice 1.2.1"><a href="#al1-recap_chap5_app-lin-3-3-3-3" title="Copy heading and permalink for Indice 1.2.1" aria-label="Copy heading and permalink for Indice 1.2.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Exercise 1.2"><a href="#al1-recap_chap5_app-lin-3-3-3" title="Copy heading and permalink for Exercise 1.2" aria-label="Copy heading and permalink for Exercise 1.2">🔗</a></div></article><article class="exercise exercise-like" id="al1-recap_chap5_app-lin-3-3-4"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="ptx-runestone-container"><div class="runestone multiplechoice_section"><ul data-component="multiplechoice" data-multipleanswers="false">
+<div class="para" id="al1-recap_chap5_app-lin-3-3-4-1-1">Soit <span class="process-math">\(E\)</span> un espace vectoriel et soit <span class="process-math">\(f\in \L(E)\text{,}\)</span> <span class="process-math">\(f\neq \Id\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-4-1-2">On suppose que <span class="process-math">\(f\circ f=f\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-4-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-4-1-3">Alors, si on note <span class="process-math">\(s = Id - 2f\text{,}\)</span> <span class="process-math">\(s\)</span> est la symétrie par rapport à <span class="process-math">\(\Ker(f)\)</span> parallèlement à <span class="process-math">\(\Im(f)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-4-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-4-1-4"><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-3-4-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<li data-component="answer" id="_opt_t" data-correct=""><p>True.</p></li>
+<li data-component="feedback" id="_opt_t">
+<div class="para" id="al1-recap_chap5_app-lin-3-3-4-2-1">C’est vrai !</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-4-2-2">Si <span class="process-math">\(f\circ f=f\text{,}\)</span> alors <span class="process-math">\(f\)</span>  <span class="process-math">\(E= \Ker(f) \oplus \Im(f)\text{,}\)</span> et tout vecteur de <span class="process-math">\(E\)</span> se décompose en <span class="process-math">\(u=v+w\text{,}\)</span> avec <span class="process-math">\(v\in \Ker(f)\)</span> et <span class="process-math">\(w\in \Im(f)\)</span> (voir la question précédente).</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-4-2-3">De là, si on prend <span class="process-math">\(u\in E\text{,}\)</span> avec sa décomposition <span class="process-math">\(u=v+w\text{,}\)</span> alors comme on a vu, <span class="process-math">\(w=f(u)\text{,}\)</span> et donc <span class="process-math">\(s(u) = u-2f(u) = v+w - 2w = v-w\text{:}\)</span> donc <span class="process-math">\(s\)</span> est effectivement la symétrie par rapport à <span class="process-math">\(\Ker(f)\)</span> parallèlement à <span class="process-math">\(\Im(f)\text{.}\)</span>
+</div>
+</li>
+<li data-component="answer" id="_opt_f"><p>False.</p></li>
+<li data-component="feedback" id="_opt_f">
+<div class="para" id="al1-recap_chap5_app-lin-3-3-4-2-1">C’est vrai !</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-4-2-2">Si <span class="process-math">\(f\circ f=f\text{,}\)</span> alors <span class="process-math">\(f\)</span>  <span class="process-math">\(E= \Ker(f) \oplus \Im(f)\text{,}\)</span> et tout vecteur de <span class="process-math">\(E\)</span> se décompose en <span class="process-math">\(u=v+w\text{,}\)</span> avec <span class="process-math">\(v\in \Ker(f)\)</span> et <span class="process-math">\(w\in \Im(f)\)</span> (voir la question précédente).</div> <div class="para" id="al1-recap_chap5_app-lin-3-3-4-2-3">De là, si on prend <span class="process-math">\(u\in E\text{,}\)</span> avec sa décomposition <span class="process-math">\(u=v+w\text{,}\)</span> alors comme on a vu, <span class="process-math">\(w=f(u)\text{,}\)</span> et donc <span class="process-math">\(s(u) = u-2f(u) = v+w - 2w = v-w\text{:}\)</span> donc <span class="process-math">\(s\)</span> est effectivement la symétrie par rapport à <span class="process-math">\(\Ker(f)\)</span> parallèlement à <span class="process-math">\(\Im(f)\text{.}\)</span>
+</div>
+</li>
+</ul></div></div>
+<div class="autopermalink" data-description="Exercise 1.3"><a href="#al1-recap_chap5_app-lin-3-3-4" title="Copy heading and permalink for Exercise 1.3" aria-label="Copy heading and permalink for Exercise 1.3">🔗</a></div></article><div class="autopermalink" data-description="Exercice 1: Sur la composée d’applications linéaires"><a href="#al1-recap_chap5_app-lin-3-3" title="Copy heading and permalink for Exercice 1: Sur la composée d’applications linéaires" aria-label="Copy heading and permalink for Exercice 1: Sur la composée d’applications linéaires">🔗</a></div></section><section class="exercises" id="al1-recap_chap5_app-lin-3-4"><h3 class="heading hide-type">
+<span class="type">Exercice</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sur le lien entre dimension, injectivité et surjectivité</span>
+</h3>
+<article class="exercise exercise-like" id="al1-recap_chap5_app-lin-3-4-2"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="ptx-runestone-container"><div class="runestone multiplechoice_section"><ul data-component="multiplechoice" data-multipleanswers="false">
+<div class="para" id="al1-recap_chap5_app-lin-3-4-2-1-1">Soit <span class="process-math">\(f:\mathbb{R}^2 \rightarrow \mathbb{R}^3\)</span> une application linéaire.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-2-1-2">Alors <span class="process-math">\(f\)</span> ne peut pas être surjective.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-4-2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-2-1-3"><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-4-2-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<li data-component="answer" id="_opt_t" data-correct=""><p>True.</p></li>
+<li data-component="feedback" id="_opt_t">
+<div class="para" id="al1-recap_chap5_app-lin-3-4-2-2-1">C’est vrai !</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-2-2-2">D’après le théorème du rang,</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-4-2-2-3">
+\begin{equation*}
+\dim(\Im(f))+\dim(\Ker(f)) = \dim(\mathbb{R}^2) = 2
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-4-2-2-4">Or, <span class="process-math">\(\dim(\Ker(f)\geq 0\)</span> donc</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-4-2-2-5">
+\begin{equation*}
+\dim(\Im(f)) = 2 - \dim(\Ker(f))\leq 2\lt 3
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-4-2-2-6">donc on ne peut pas avoir <span class="process-math">\(\Im(f)=\mathbb{R}^3\text{.}\)</span>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-2-2-7">Donc <span class="process-math">\(f\)</span> n’est pas surjective.</div>
+</li>
+<li data-component="answer" id="_opt_f"><p>False.</p></li>
+<li data-component="feedback" id="_opt_f">
+<div class="para" id="al1-recap_chap5_app-lin-3-4-2-2-1">C’est vrai !</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-2-2-2">D’après le théorème du rang,</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-4-2-2-3">
+\begin{equation*}
+\dim(\Im(f))+\dim(\Ker(f)) = \dim(\mathbb{R}^2) = 2
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-4-2-2-4">Or, <span class="process-math">\(\dim(\Ker(f)\geq 0\)</span> donc</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-4-2-2-5">
+\begin{equation*}
+\dim(\Im(f)) = 2 - \dim(\Ker(f))\leq 2\lt 3
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-4-2-2-6">donc on ne peut pas avoir <span class="process-math">\(\Im(f)=\mathbb{R}^3\text{.}\)</span>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-2-2-7">Donc <span class="process-math">\(f\)</span> n’est pas surjective.</div>
+</li>
+</ul></div></div>
+<div class="autopermalink" data-description="Exercise 1.1"><a href="#al1-recap_chap5_app-lin-3-4-2" title="Copy heading and permalink for Exercise 1.1" aria-label="Copy heading and permalink for Exercise 1.1">🔗</a></div></article><article class="exercise exercise-like" id="al1-recap_chap5_app-lin-3-4-3"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="ptx-runestone-container"><div class="runestone multiplechoice_section"><ul data-component="multiplechoice" data-multipleanswers="false">
+<div class="para" id="al1-recap_chap5_app-lin-3-4-3-1-1">Soit <span class="process-math">\(f:\mathbb{R}^3 \rightarrow \mathbb{R}^2\)</span> une application linéaire.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-3-1-2">Alors <span class="process-math">\(f\)</span> ne peut pas être injective.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-4-3-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-3-1-3"><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-4-3-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<li data-component="answer" id="_opt_t" data-correct=""><p>True.</p></li>
+<li data-component="feedback" id="_opt_t">
+<div class="para" id="al1-recap_chap5_app-lin-3-4-3-2-1">C’est vrai !</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-3-2-2">D’après le théorème du rang,</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-4-3-2-3">
+\begin{equation*}
+\dim(\Im(f))+\dim(\Ker(f)) = \dim(\mathbb{R}^3) = 3
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-4-3-2-4">Et d’un autre côté, <span class="process-math">\(\Im(f)\subset \mathbb{R}^2\)</span> donc <span class="process-math">\(\dim(\Im(f)) \leq 2\text{.}\)</span>  Mais du coup,</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-4-3-2-5">
+\begin{equation*}
+\dim(\Ker(f)) = 3 - \dim(\Im(f)) \geq 3-2 =1 \gt 0
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-4-3-2-6">donc on ne peut pas avoir <span class="process-math">\(\Ker(f)=\{0_{\mathbb{R}^3}\}\text{.}\)</span>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-3-2-7">Donc <span class="process-math">\(f\)</span> n’est pas injective.</div>
+</li>
+<li data-component="answer" id="_opt_f"><p>False.</p></li>
+<li data-component="feedback" id="_opt_f">
+<div class="para" id="al1-recap_chap5_app-lin-3-4-3-2-1">C’est vrai !</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-3-2-2">D’après le théorème du rang,</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-4-3-2-3">
+\begin{equation*}
+\dim(\Im(f))+\dim(\Ker(f)) = \dim(\mathbb{R}^3) = 3
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-4-3-2-4">Et d’un autre côté, <span class="process-math">\(\Im(f)\subset \mathbb{R}^2\)</span> donc <span class="process-math">\(\dim(\Im(f)) \leq 2\text{.}\)</span>  Mais du coup,</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-4-3-2-5">
+\begin{equation*}
+\dim(\Ker(f)) = 3 - \dim(\Im(f)) \geq 3-2 =1 \gt 0
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-4-3-2-6">donc on ne peut pas avoir <span class="process-math">\(\Ker(f)=\{0_{\mathbb{R}^3}\}\text{.}\)</span>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-3-2-7">Donc <span class="process-math">\(f\)</span> n’est pas injective.</div>
+</li>
+</ul></div></div>
+<div class="autopermalink" data-description="Exercise 1.2"><a href="#al1-recap_chap5_app-lin-3-4-3" title="Copy heading and permalink for Exercise 1.2" aria-label="Copy heading and permalink for Exercise 1.2">🔗</a></div></article><article class="exercise exercise-like" id="al1-recap_chap5_app-lin-3-4-4"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="ptx-runestone-container"><div class="runestone multiplechoice_section"><ul data-component="multiplechoice" data-multipleanswers="false">
+<div class="para" id="al1-recap_chap5_app-lin-3-4-4-1-1">Soit <span class="process-math">\(f:\mathbb{R}_2[X] \rightarrow \mathbb{R}^3\)</span> une application linéaire.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-4-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-4-1-2">Alors <span class="process-math">\(f\)</span> ne peut pas être injective.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-4-4-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-4-1-3"><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-4-4-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<li data-component="answer" id="_opt_t"><p>True.</p></li>
+<li data-component="feedback" id="_opt_t">
+<div class="para" id="al1-recap_chap5_app-lin-3-4-4-2-1">C’est faux, cette fois !</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-4-2-2">Par exemple, prenons l’application</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-4-4-2-3">
+\begin{equation*}
+f: P(X)=aX^2+bX+c \mapsto \R_2[X] \mapsto \jmat{a\\b\\c} \in \R^3
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-4-4-2-4">Alors c’est une application linéaire: soient <span class="process-math">\(P_1(X)=a_1X^2+b_1 X + c_1,P_2(X)=a_2 X^2+b_2 X + c_2\text{,}\)</span> <span class="process-math">\(\lambda\in\mathbb{R}\text{,}\)</span> on a</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-4-4-2-5">
+\begin{align*}
+f(P_1+\lambda P_2)\amp =f((a_1+\lambda a_2)X^2+(b_1+\lambda b_2)X + (c_1+\lambda c_2))\\
+\amp =\jmat{a_1+\lambda a_2\\b_1+\lambda b_2\\c_1+\lambda c_2}\\
+\amp = \jmat{a_1\\b_1\\c_1}+\lambda  \jmat{a_2\\b_2\\c_2}\\
+\amp =f(P_1)+\lambda f(P_2)
+\end{align*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-4-4-2-6">De plus, <span class="process-math">\(f\)</span> est injective: Pour tout <span class="process-math">\(P(X)=aX^2+bX+c\in\R_2[X]\text{,}\)</span>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-4-4-2-7">
+\begin{align*}
+f(P)=0_{\mathbb{R}^3}\amp \Leftrightarrow f(aX^2+bX+c) = \jmat{0\\0\\0}\\
+\amp \Leftrightarrow \jmat{a\\b\\c} = \jmat{0\\0\\0}\\
+\amp \Leftrightarrow P(X)=0X^2+0X+0=0_{\mathbb{R}^2[X]}
+\end{align*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-4-4-2-8">donc <span class="process-math">\(Ker(f)=\{0_{\mathbb{R}^2[X]}\}\text{,}\)</span> donc <span class="process-math">\(f\)</span> est injective.</div>
+</li>
+<li data-component="answer" id="_opt_f" data-correct=""><p>False.</p></li>
+<li data-component="feedback" id="_opt_f">
+<div class="para" id="al1-recap_chap5_app-lin-3-4-4-2-1">C’est faux, cette fois !</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-4-2-2">Par exemple, prenons l’application</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-4-4-2-3">
+\begin{equation*}
+f: P(X)=aX^2+bX+c \mapsto \R_2[X] \mapsto \jmat{a\\b\\c} \in \R^3
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-4-4-2-4">Alors c’est une application linéaire: soient <span class="process-math">\(P_1(X)=a_1X^2+b_1 X + c_1,P_2(X)=a_2 X^2+b_2 X + c_2\text{,}\)</span> <span class="process-math">\(\lambda\in\mathbb{R}\text{,}\)</span> on a</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-4-4-2-5">
+\begin{align*}
+f(P_1+\lambda P_2)\amp =f((a_1+\lambda a_2)X^2+(b_1+\lambda b_2)X + (c_1+\lambda c_2))\\
+\amp =\jmat{a_1+\lambda a_2\\b_1+\lambda b_2\\c_1+\lambda c_2}\\
+\amp = \jmat{a_1\\b_1\\c_1}+\lambda  \jmat{a_2\\b_2\\c_2}\\
+\amp =f(P_1)+\lambda f(P_2)
+\end{align*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-4-4-2-6">De plus, <span class="process-math">\(f\)</span> est injective: Pour tout <span class="process-math">\(P(X)=aX^2+bX+c\in\R_2[X]\text{,}\)</span>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-4-4-2-7">
+\begin{align*}
+f(P)=0_{\mathbb{R}^3}\amp \Leftrightarrow f(aX^2+bX+c) = \jmat{0\\0\\0}\\
+\amp \Leftrightarrow \jmat{a\\b\\c} = \jmat{0\\0\\0}\\
+\amp \Leftrightarrow P(X)=0X^2+0X+0=0_{\mathbb{R}^2[X]}
+\end{align*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-4-4-2-8">donc <span class="process-math">\(Ker(f)=\{0_{\mathbb{R}^2[X]}\}\text{,}\)</span> donc <span class="process-math">\(f\)</span> est injective.</div>
+</li>
+</ul></div></div>
+<div class="autopermalink" data-description="Exercise 1.3"><a href="#al1-recap_chap5_app-lin-3-4-4" title="Copy heading and permalink for Exercise 1.3" aria-label="Copy heading and permalink for Exercise 1.3">🔗</a></div></article><article class="exercise exercise-like" id="al1-recap_chap5_app-lin-3-4-5"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="ptx-runestone-container"><div class="runestone multiplechoice_section"><ul data-component="multiplechoice" data-multipleanswers="false">
+<div class="para" id="al1-recap_chap5_app-lin-3-4-5-1-1">Soit <span class="process-math">\(f : \mathbb{R}^5 \rightarrow \mathbb{R}\)</span> une application linéaire. On suppose que  <span class="process-math">\(f\jmat{1\\42\\-2\\3\\5} = 1\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-4-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-5-1-2">Alors <span class="process-math">\(f\)</span> est surjective.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-4-5-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-5-1-3"><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-4-5-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div></div>
+<li data-component="answer" id="_opt_t" data-correct=""><p>True.</p></li>
+<li data-component="feedback" id="_opt_t">
+<div class="para" id="al1-recap_chap5_app-lin-3-4-5-2-1">
+<span class="process-math">\(\Im(f)\)</span> est un s.e.v de <span class="process-math">\(\R\text{,}\)</span> donc <span class="process-math">\(\rg(f)=\dim\Im(f) \leq \dim \R=1\text{.}\)</span>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-5-2-2">Il y a donc deux possibilités:</div> <ul class="disc" id="al1-recap_chap5_app-lin-3-4-5-2-3">
+<li id="al1-recap_chap5_app-lin-3-4-5-2-3-1">
+<div class="para" id="al1-recap_chap5_app-lin-3-4-5-2-3-1-1">Soit <span class="process-math">\(\rg(f)=0\text{:}\)</span> dans ce cas, <span class="process-math">\(\Im(f)=\{0\}\text{,}\)</span> autrement dit, pour tout <span class="process-math">\(u\in \R^5\text{,}\)</span> <span class="process-math">\(f(u)=0\text{.}\)</span> Ce n’est pas le cas ici, puisqu’il existe un vecteur <span class="process-math">\(u=\jmat{1\\42\\-2\\3\\5} \)</span> tel que <span class="process-math">\(f(u)=1\neq 0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-4-5-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#al1-recap_chap5_app-lin-3-4-5-2-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="al1-recap_chap5_app-lin-3-4-5-2-3-2">
+<div class="para" id="al1-recap_chap5_app-lin-3-4-5-2-3-2-1">Soit <span class="process-math">\(\rg(f)=1\text{,}\)</span> et dans ce cas, <span class="process-math">\(\Im(f)=\R\)</span> et <span class="process-math">\(f\)</span> est surjective: c’est donc le cas ici.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-4-5-2-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#al1-recap_chap5_app-lin-3-4-5-2-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul> <div class="para" id="al1-recap_chap5_app-lin-3-4-5-2-4">
+<dfn class="terminology">Remarque:</dfn> En fait, par linéarité de <span class="process-math">\(f\text{,}\)</span> pour tout <span class="process-math">\(a\in\R\text{,}\)</span>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-4-5-2-5">
+\begin{equation*}
+a=a\cdot 1 = af\jmat{1\\42\\-2\\3\\5} =f\jmat{a\\42a\\-2a\\3a\\5a}\in\Im(f)
+\end{equation*}
+</div>
+</li>
+<li data-component="answer" id="_opt_f"><p>False.</p></li>
+<li data-component="feedback" id="_opt_f">
+<div class="para" id="al1-recap_chap5_app-lin-3-4-5-2-1">
+<span class="process-math">\(\Im(f)\)</span> est un s.e.v de <span class="process-math">\(\R\text{,}\)</span> donc <span class="process-math">\(\rg(f)=\dim\Im(f) \leq \dim \R=1\text{.}\)</span>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-4-5-2-2">Il y a donc deux possibilités:</div> <ul class="disc" id="al1-recap_chap5_app-lin-3-4-5-2-3">
+<li id="al1-recap_chap5_app-lin-3-4-5-2-3-1">
+<div class="para" id="al1-recap_chap5_app-lin-3-4-5-2-3-1-1">Soit <span class="process-math">\(\rg(f)=0\text{:}\)</span> dans ce cas, <span class="process-math">\(\Im(f)=\{0\}\text{,}\)</span> autrement dit, pour tout <span class="process-math">\(u\in \R^5\text{,}\)</span> <span class="process-math">\(f(u)=0\text{.}\)</span> Ce n’est pas le cas ici, puisqu’il existe un vecteur <span class="process-math">\(u=\jmat{1\\42\\-2\\3\\5} \)</span> tel que <span class="process-math">\(f(u)=1\neq 0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-4-5-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#al1-recap_chap5_app-lin-3-4-5-2-3-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="al1-recap_chap5_app-lin-3-4-5-2-3-2">
+<div class="para" id="al1-recap_chap5_app-lin-3-4-5-2-3-2-1">Soit <span class="process-math">\(\rg(f)=1\text{,}\)</span> et dans ce cas, <span class="process-math">\(\Im(f)=\R\)</span> et <span class="process-math">\(f\)</span> est surjective: c’est donc le cas ici.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-4-5-2-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#al1-recap_chap5_app-lin-3-4-5-2-3-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul> <div class="para" id="al1-recap_chap5_app-lin-3-4-5-2-4">
+<dfn class="terminology">Remarque:</dfn> En fait, par linéarité de <span class="process-math">\(f\text{,}\)</span> pour tout <span class="process-math">\(a\in\R\text{,}\)</span>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-4-5-2-5">
+\begin{equation*}
+a=a\cdot 1 = af\jmat{1\\42\\-2\\3\\5} =f\jmat{a\\42a\\-2a\\3a\\5a}\in\Im(f)
+\end{equation*}
+</div>
+</li>
+</ul></div></div>
+<div class="autopermalink" data-description="Exercise 1.4"><a href="#al1-recap_chap5_app-lin-3-4-5" title="Copy heading and permalink for Exercise 1.4" aria-label="Copy heading and permalink for Exercise 1.4">🔗</a></div></article><div class="autopermalink" data-description="Exercice 1: Sur le lien entre dimension, injectivité et surjectivité"><a href="#al1-recap_chap5_app-lin-3-4" title="Copy heading and permalink for Exercice 1: Sur le lien entre dimension, injectivité et surjectivité" aria-label="Copy heading and permalink for Exercice 1: Sur le lien entre dimension, injectivité et surjectivité">🔗</a></div></section><section class="exercises" id="al1-recap_chap5_app-lin-3-5"><h3 class="heading hide-type">
+<span class="type">Exercice</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Sur les endomorphismes de <span class="process-math">\(\R\)</span> et <span class="process-math">\(\R^2\)</span></span>
+</h3>
+<article class="exercise exercise-like" id="al1-recap_chap5_app-lin-3-5-2"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="ptx-runestone-container"><div class="runestone multiplechoice_section"><ul data-component="multiplechoice" data-multipleanswers="false">
+<div class="para" id="al1-recap_chap5_app-lin-3-5-2-1-1">Une application <span class="process-math">\(f:\mathbb{R} \rightarrow \mathbb{R}\)</span> est un endomorphisme de <span class="process-math">\(\mathbb{R}\)</span> si, et seulement si, il existe <span class="process-math">\(a\in \mathbb{R}\)</span> tel que<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-5-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-2-1-2">
+\begin{equation*}
+\text{Pour tout }\ x\in\mathbb{R},\ f(x)=ax
+\end{equation*}
+</div>
+<li data-component="answer" id="_opt_t" data-correct=""><p>True.</p></li>
+<li data-component="feedback" id="_opt_t">
+<div class="para" id="al1-recap_chap5_app-lin-3-5-2-2-1">C’est vrai  !</div> <div class="para" id="al1-recap_chap5_app-lin-3-5-2-2-2">Ce sont les fonctions linéaires que vous connaissez depuis le lycée. Démontrons-le proprement:</div> <div class="para" id="al1-recap_chap5_app-lin-3-5-2-2-3">
+<span class="process-math">\(\boxed{\Rightarrow}\)</span> Supposons que <span class="process-math">\(f:\mathbb{R}\rightarrow \mathbb{R}\)</span> est linéaire. Notons <span class="process-math">\(a=f(1)\in\mathbb{R}\text{.}\)</span> Alors, pour tout <span class="process-math">\(x\in\mathbb{R}\text{,}\)</span> on a, puisque <span class="process-math">\(f\)</span> est linéaire et <span class="process-math">\(x\)</span> est un scalaire,</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-2-2-4">
+\begin{equation*}
+f(x)=f(x \cdot1)=x\cdot f(1)=ax
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-2-2-5">comme prévu.</div> <div class="para" id="al1-recap_chap5_app-lin-3-5-2-2-6">
+<span class="process-math">\(\boxed{\Leftarrow}\)</span> Supposons qu’il existe un réel <span class="process-math">\(a\)</span> tel que pour tout <span class="process-math">\(x\in\mathbb{R}\text{,}\)</span> f(x)=ax. Alors <span class="process-math">\(f\)</span> est linéaire: en effet, pour tous <span class="process-math">\(x,y\in\mathbb{R}\text{,}\)</span> pour tout <span class="process-math">\(\lambda \in\mathbb{R}\text{,}\)</span>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-2-2-7">
+\begin{equation*}
+f(x+\lambda y)=a(x+\lambda y) = ax + \lambda (ay) = f(x)+\lambda f(y)
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-2-2-8">donc <span class="process-math">\(f\)</span> est bien linéaire.</div>
+</li>
+<li data-component="answer" id="_opt_f"><p>False.</p></li>
+<li data-component="feedback" id="_opt_f">
+<div class="para" id="al1-recap_chap5_app-lin-3-5-2-2-1">C’est vrai  !</div> <div class="para" id="al1-recap_chap5_app-lin-3-5-2-2-2">Ce sont les fonctions linéaires que vous connaissez depuis le lycée. Démontrons-le proprement:</div> <div class="para" id="al1-recap_chap5_app-lin-3-5-2-2-3">
+<span class="process-math">\(\boxed{\Rightarrow}\)</span> Supposons que <span class="process-math">\(f:\mathbb{R}\rightarrow \mathbb{R}\)</span> est linéaire. Notons <span class="process-math">\(a=f(1)\in\mathbb{R}\text{.}\)</span> Alors, pour tout <span class="process-math">\(x\in\mathbb{R}\text{,}\)</span> on a, puisque <span class="process-math">\(f\)</span> est linéaire et <span class="process-math">\(x\)</span> est un scalaire,</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-2-2-4">
+\begin{equation*}
+f(x)=f(x \cdot1)=x\cdot f(1)=ax
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-2-2-5">comme prévu.</div> <div class="para" id="al1-recap_chap5_app-lin-3-5-2-2-6">
+<span class="process-math">\(\boxed{\Leftarrow}\)</span> Supposons qu’il existe un réel <span class="process-math">\(a\)</span> tel que pour tout <span class="process-math">\(x\in\mathbb{R}\text{,}\)</span> f(x)=ax. Alors <span class="process-math">\(f\)</span> est linéaire: en effet, pour tous <span class="process-math">\(x,y\in\mathbb{R}\text{,}\)</span> pour tout <span class="process-math">\(\lambda \in\mathbb{R}\text{,}\)</span>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-2-2-7">
+\begin{equation*}
+f(x+\lambda y)=a(x+\lambda y) = ax + \lambda (ay) = f(x)+\lambda f(y)
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-2-2-8">donc <span class="process-math">\(f\)</span> est bien linéaire.</div>
+</li>
+</ul></div></div>
+<div class="autopermalink" data-description="Exercise 1.1"><a href="#al1-recap_chap5_app-lin-3-5-2" title="Copy heading and permalink for Exercise 1.1" aria-label="Copy heading and permalink for Exercise 1.1">🔗</a></div></article><article class="exercise exercise-like" id="al1-recap_chap5_app-lin-3-5-3"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="ptx-runestone-container"><div class="runestone multiplechoice_section"><ul data-component="multiplechoice" data-multipleanswers="false">
+<div class="para" id="al1-recap_chap5_app-lin-3-5-3-1-1">Une application <span class="process-math">\(f:\mathbb{R}^2 \rightarrow \mathbb{R}^2\)</span> est un endomorphisme de <span class="process-math">\(\mathbb{R}^2\)</span> si, et seulement si, il existe <span class="process-math">\(a\in \mathbb{R}\)</span> tel que<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-5-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-3-1-2">
+\begin{equation*}
+\text{Pour tout }\ \jmat{x\\y}\in\mathbb{R}^2,\ f\jmat{x\\y}=a\jmat{x\\y}=\jmat{ax\\ay}
+\end{equation*}
+</div>
+<li data-component="answer" id="_opt_t"><p>True.</p></li>
+<li data-component="feedback" id="_opt_t">
+<div class="para" id="al1-recap_chap5_app-lin-3-5-3-2-1">C’est faux ! Il y a des applications linéaires <span class="process-math">\(\mathbb{R}^2 \rightarrow \mathbb{R}^2\)</span> qui n’ont pas cette tête là. Par exemple,</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-3-2-2">
+\begin{equation*}
+f:\jmat{x\\y}\in\mathbb{R}^2 \mapsto (x,-y)\in\mathbb{R}^2
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-3-2-3">est une application linéaire: pour tous <span class="process-math">\(u_1=\jmat{x_1\\y_1},u_2=\jmat{x_2\\y_2}\in\mathbb{R}^2\text{,}\)</span> <span class="process-math">\(\lambda\in\mathbb{R}\text{,}\)</span> on a</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-3-2-4">
+\begin{align*}
+f(u_1 + \lambda u_2) \amp = f\jmat{x_1+\lambda x_2\\ y_1 +\lambda y_2} =\jmat{y_1+\lambda y_2\\ -x_1-\lambda x_2}\\
+\amp =\jmat{y_1\\-x_1}+\lambda \jmat{y_2\\-x_2}\\
+\amp =f(u_1)+\lambda f(u_2)
+\end{align*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-3-2-5">Donc <span class="process-math">\(f\)</span> est bien linéaire, mais il n’existe pas de coefficient <span class="process-math">\(a\in\mathbb{R}\)</span> tel que</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-3-2-6">
+\begin{equation*}
+f\jmat{x\\y}=(ax,ay)
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-3-2-7">En effet, si c’était le cas, on aurait</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-3-2-8">
+\begin{align*}
+f\jmat{1\\0}=\jmat{1\\0}=\jmat{a\\0} \amp \Rightarrow a=1\\
+f\jmat{0\\1}=\jmat{0\\-1}=\jmat{0\\a}\amp \Rightarrow a=-1  
+\end{align*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-3-2-9">ce qui est contradictoire.</div>
+</li>
+<li data-component="answer" id="_opt_f" data-correct=""><p>False.</p></li>
+<li data-component="feedback" id="_opt_f">
+<div class="para" id="al1-recap_chap5_app-lin-3-5-3-2-1">C’est faux ! Il y a des applications linéaires <span class="process-math">\(\mathbb{R}^2 \rightarrow \mathbb{R}^2\)</span> qui n’ont pas cette tête là. Par exemple,</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-3-2-2">
+\begin{equation*}
+f:\jmat{x\\y}\in\mathbb{R}^2 \mapsto (x,-y)\in\mathbb{R}^2
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-3-2-3">est une application linéaire: pour tous <span class="process-math">\(u_1=\jmat{x_1\\y_1},u_2=\jmat{x_2\\y_2}\in\mathbb{R}^2\text{,}\)</span> <span class="process-math">\(\lambda\in\mathbb{R}\text{,}\)</span> on a</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-3-2-4">
+\begin{align*}
+f(u_1 + \lambda u_2) \amp = f\jmat{x_1+\lambda x_2\\ y_1 +\lambda y_2} =\jmat{y_1+\lambda y_2\\ -x_1-\lambda x_2}\\
+\amp =\jmat{y_1\\-x_1}+\lambda \jmat{y_2\\-x_2}\\
+\amp =f(u_1)+\lambda f(u_2)
+\end{align*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-3-2-5">Donc <span class="process-math">\(f\)</span> est bien linéaire, mais il n’existe pas de coefficient <span class="process-math">\(a\in\mathbb{R}\)</span> tel que</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-3-2-6">
+\begin{equation*}
+f\jmat{x\\y}=(ax,ay)
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-3-2-7">En effet, si c’était le cas, on aurait</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-3-2-8">
+\begin{align*}
+f\jmat{1\\0}=\jmat{1\\0}=\jmat{a\\0} \amp \Rightarrow a=1\\
+f\jmat{0\\1}=\jmat{0\\-1}=\jmat{0\\a}\amp \Rightarrow a=-1  
+\end{align*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-3-2-9">ce qui est contradictoire.</div>
+</li>
+</ul></div></div>
+<div class="autopermalink" data-description="Exercise 1.2"><a href="#al1-recap_chap5_app-lin-3-5-3" title="Copy heading and permalink for Exercise 1.2" aria-label="Copy heading and permalink for Exercise 1.2">🔗</a></div></article><article class="exercise exercise-like" id="al1-recap_chap5_app-lin-3-5-4"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="ptx-runestone-container"><div class="runestone multiplechoice_section"><ul data-component="multiplechoice" data-multipleanswers="false">
+<div class="para" id="al1-recap_chap5_app-lin-3-5-4-1-1">Une application <span class="process-math">\(f:\mathbb{R}^2 \rightarrow \mathbb{R}^2\)</span> est un endomorphisme de <span class="process-math">\(\mathbb{R}^2\)</span> si, et seulement si, il existe <span class="process-math">\(a,b\in \mathbb{R}\)</span> tel que<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-5-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-4-1-2">
+\begin{equation*}
+\text{Pour tout }\ \jmat{x\\y}\in\mathbb{R}^2,\ f\jmat{x\\y}=\jmat{ax\\by}
+\end{equation*}
+</div>
+<li data-component="answer" id="_opt_t"><p>True.</p></li>
+<li data-component="feedback" id="_opt_t">
+<div class="para" id="al1-recap_chap5_app-lin-3-5-4-2-1">C’est faux aussi: il y a des applications linéaires <span class="process-math">\(\mathbb{R}^2 \rightarrow \mathbb{R}^2\)</span> qui n’ont pas non plus cette tête là. Par exemple,</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-4-2-2">
+\begin{equation*}
+f:\jmat{x\\y}\in\mathbb{R}^2 \mapsto (x+y,y)\in\mathbb{R}^2
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-4-2-3">est linéaire: pour tous <span class="process-math">\(u_1=\jmat{x_1\\y_1},u_2=\jmat{x_2\\y_2}\in\mathbb{R}^2\text{,}\)</span> <span class="process-math">\(\lambda\in\mathbb{R}\text{,}\)</span> on a</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-4-2-4">
+\begin{align*}
+f(u_1 + \lambda u_2) \amp = f\jmat{x_1+\lambda x_2, y_1 +\lambda y_2}=\jmat{x_1+\lambda x_2 + y_1+\lambda y_2\\y_1+\lambda y_2}\\
+\amp=\jmat{x_1+y_1\\y_1}+\lambda \jmat{x_2+y_2\\y_2}=f(u_1)+\lambda f(u_2)
+\end{align*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-4-2-5">Donc <span class="process-math">\(f\)</span> est bien linéaire, mais il n’existe pas de coefficients <span class="process-math">\(a,b\in\mathbb{R}\)</span> tel que <span class="process-math">\(f\jmat{x\\y}=\jmat{ax\\by}\text{.}\)</span>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-5-4-2-6">En effet, si c’était le cas, on aurait</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-4-2-7">
+\begin{align*}
+f\jmat{1\\1}=\jmat{2\\1}=\jmat{a,b} \amp \Rightarrow a=2,b=1\\
+f\jmat{1\\-1}=\jmat{0\\1}=\jmat{a\\-b}\amp \Rightarrow a=0,b=1  
+\end{align*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-4-2-8">ce qui est contradictoire.</div>
+</li>
+<li data-component="answer" id="_opt_f" data-correct=""><p>False.</p></li>
+<li data-component="feedback" id="_opt_f">
+<div class="para" id="al1-recap_chap5_app-lin-3-5-4-2-1">C’est faux aussi: il y a des applications linéaires <span class="process-math">\(\mathbb{R}^2 \rightarrow \mathbb{R}^2\)</span> qui n’ont pas non plus cette tête là. Par exemple,</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-4-2-2">
+\begin{equation*}
+f:\jmat{x\\y}\in\mathbb{R}^2 \mapsto (x+y,y)\in\mathbb{R}^2
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-4-2-3">est linéaire: pour tous <span class="process-math">\(u_1=\jmat{x_1\\y_1},u_2=\jmat{x_2\\y_2}\in\mathbb{R}^2\text{,}\)</span> <span class="process-math">\(\lambda\in\mathbb{R}\text{,}\)</span> on a</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-4-2-4">
+\begin{align*}
+f(u_1 + \lambda u_2) \amp = f\jmat{x_1+\lambda x_2, y_1 +\lambda y_2}=\jmat{x_1+\lambda x_2 + y_1+\lambda y_2\\y_1+\lambda y_2}\\
+\amp=\jmat{x_1+y_1\\y_1}+\lambda \jmat{x_2+y_2\\y_2}=f(u_1)+\lambda f(u_2)
+\end{align*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-4-2-5">Donc <span class="process-math">\(f\)</span> est bien linéaire, mais il n’existe pas de coefficients <span class="process-math">\(a,b\in\mathbb{R}\)</span> tel que <span class="process-math">\(f\jmat{x\\y}=\jmat{ax\\by}\text{.}\)</span>
+</div> <div class="para" id="al1-recap_chap5_app-lin-3-5-4-2-6">En effet, si c’était le cas, on aurait</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-4-2-7">
+\begin{align*}
+f\jmat{1\\1}=\jmat{2\\1}=\jmat{a,b} \amp \Rightarrow a=2,b=1\\
+f\jmat{1\\-1}=\jmat{0\\1}=\jmat{a\\-b}\amp \Rightarrow a=0,b=1  
+\end{align*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-4-2-8">ce qui est contradictoire.</div>
+</li>
+</ul></div></div>
+<div class="autopermalink" data-description="Exercise 1.3"><a href="#al1-recap_chap5_app-lin-3-5-4" title="Copy heading and permalink for Exercise 1.3" aria-label="Copy heading and permalink for Exercise 1.3">🔗</a></div></article><article class="exercise exercise-like" id="al1-recap_chap5_app-lin-3-5-5"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="ptx-runestone-container"><div class="runestone multiplechoice_section"><ul data-component="multiplechoice" data-multipleanswers="false">
+<div class="para" id="al1-recap_chap5_app-lin-3-5-5-1-1">Une application <span class="process-math">\(f:\mathbb{R}^2 \rightarrow \mathbb{R}\)</span> est linéaire si, et seulement si, il existe <span class="process-math">\(a,b\in \mathbb{R}\)</span> tel que<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-5-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-5-1-2">
+\begin{equation*}
+\text{Pour tout }\ \jmat{x\\y}\in\mathbb{R}^2,\ f\jmat{x\\y}=ax+by
+\end{equation*}
+</div>
+<li data-component="answer" id="_opt_t" data-correct=""><p>True.</p></li>
+<li data-component="feedback" id="_opt_t">
+<div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-1">C’est vrai !  Montrons le par double implication</div> <div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-2">
+<span class="process-math">\(\boxed{\Leftarrow}\text{:}\)</span> Supposons qu’il existe deux coefficients <span class="process-math">\(a,b\)</span> tels que pour tout <span class="process-math">\(u=\jmat{x\\y}\in \mathbb{R}^2\text{,}\)</span> <span class="process-math">\(f\jmat{x\\y}=ax+by\text{.}\)</span> Montrons que <span class="process-math">\(f\)</span> est linéaire. On a, pour tous <span class="process-math">\(u_1=\jmat{x_1\\y_1},u_2=\jmat{x_2\\y_2}\in \mathbb{R}^2\text{,}\)</span><span class="process-math">\(\lambda\in\mathbb{R}\text{,}\)</span>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-5-2-3">
+\begin{align*}
+f(u_1 + \lambda u_2) \amp= f\jmat{x_1+\lambda x_2\\ y_1 +\lambda y_2}\\
+\amp= a(x_1+\lambda x_2)+b(y_1 +\lambda y_2)\\
+\amp=ax_1+by_1 +\lambda (ax_2+by_2)\\
+\amp=f(u_1)+\lambda f(u_2)
+\end{align*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-4">
+<span class="process-math">\(\Rightarrow\)</span> Si <span class="process-math">\(f\)</span> a cette tête-là, c’est bien une application linéaire.</div> <div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-5">
+<span class="process-math">\(\boxed{\Rightarrow}\)</span> Soit maintenant <span class="process-math">\(f\in L(\mathbb{R}^2,\mathbb{R})\text{.}\)</span> On cherche <span class="process-math">\(a,b\)</span> deux réels tels que</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-5-2-6">
+\begin{equation*}
+\text{Pour tout } u=\jmat{x\\y}\in \mathbb{R}^2,f\jmat{x\\y}=ax+by
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-7">On va faire ça par analyse-synthèse.</div> <ul class="disc" id="al1-recap_chap5_app-lin-3-5-5-2-8">
+<li id="al1-recap_chap5_app-lin-3-5-5-2-8-1">
+<div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-8-1-1">
+<em class="emphasis">Analyse:</em> si <span class="process-math">\(a\)</span> et <span class="process-math">\(b\)</span> existent, alors on a<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-5-5-2-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-5-2-8-1-2">
+\begin{equation*}
+f\jmat{1\\0}=a*1+b*0=a \text{ et } f\jmat{0\\1}=a*0+b*1=b 
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-8-1-3">donc forcément <span class="process-math">\(a=f\jmat{1\\0},b=f\jmat{0\\1}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-5-5-2-8-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#al1-recap_chap5_app-lin-3-5-5-2-8-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="al1-recap_chap5_app-lin-3-5-5-2-8-2">
+<div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-8-2-1">
+<em class="emphasis">Synthèse:</em> Notons <span class="process-math">\(a=f\jmat{1\\0},b=f\jmat{0\\1}\text{.}\)</span> Alors, pour tout <span class="process-math">\(\jmat{x\\y}\in\mathbb{R}^2\)</span> on a<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-5-5-2-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-5-2-8-2-2">
+\begin{equation*}
+\jmat{x\\y}=x*\jmat{1\\0}+y*\jmat{0\\1}
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-8-2-3">donc, comme <span class="process-math">\(f\)</span> est linéaire,<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-5-5-2-8-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-5-2-8-2-4">
+\begin{equation*}
+f\jmat{x\\y}=f\left(x\cdot \jmat{1\\0} + y \cdot \jmat{0\\1}\right) = x\cdot f\jmat{1\\0}+y \cdot f\jmat{0\\1}=ax+by
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-8-2-5">exactement comme on voulait.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-5-5-2-8-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#al1-recap_chap5_app-lin-3-5-5-2-8-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+</li>
+<li data-component="answer" id="_opt_f"><p>False.</p></li>
+<li data-component="feedback" id="_opt_f">
+<div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-1">C’est vrai !  Montrons le par double implication</div> <div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-2">
+<span class="process-math">\(\boxed{\Leftarrow}\text{:}\)</span> Supposons qu’il existe deux coefficients <span class="process-math">\(a,b\)</span> tels que pour tout <span class="process-math">\(u=\jmat{x\\y}\in \mathbb{R}^2\text{,}\)</span> <span class="process-math">\(f\jmat{x\\y}=ax+by\text{.}\)</span> Montrons que <span class="process-math">\(f\)</span> est linéaire. On a, pour tous <span class="process-math">\(u_1=\jmat{x_1\\y_1},u_2=\jmat{x_2\\y_2}\in \mathbb{R}^2\text{,}\)</span><span class="process-math">\(\lambda\in\mathbb{R}\text{,}\)</span>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-5-2-3">
+\begin{align*}
+f(u_1 + \lambda u_2) \amp= f\jmat{x_1+\lambda x_2\\ y_1 +\lambda y_2}\\
+\amp= a(x_1+\lambda x_2)+b(y_1 +\lambda y_2)\\
+\amp=ax_1+by_1 +\lambda (ax_2+by_2)\\
+\amp=f(u_1)+\lambda f(u_2)
+\end{align*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-4">
+<span class="process-math">\(\Rightarrow\)</span> Si <span class="process-math">\(f\)</span> a cette tête-là, c’est bien une application linéaire.</div> <div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-5">
+<span class="process-math">\(\boxed{\Rightarrow}\)</span> Soit maintenant <span class="process-math">\(f\in L(\mathbb{R}^2,\mathbb{R})\text{.}\)</span> On cherche <span class="process-math">\(a,b\)</span> deux réels tels que</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-5-2-6">
+\begin{equation*}
+\text{Pour tout } u=\jmat{x\\y}\in \mathbb{R}^2,f\jmat{x\\y}=ax+by
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-7">On va faire ça par analyse-synthèse.</div> <ul class="disc" id="al1-recap_chap5_app-lin-3-5-5-2-8">
+<li id="al1-recap_chap5_app-lin-3-5-5-2-8-1">
+<div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-8-1-1">
+<em class="emphasis">Analyse:</em> si <span class="process-math">\(a\)</span> et <span class="process-math">\(b\)</span> existent, alors on a<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-5-5-2-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-5-2-8-1-2">
+\begin{equation*}
+f\jmat{1\\0}=a*1+b*0=a \text{ et } f\jmat{0\\1}=a*0+b*1=b 
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-8-1-3">donc forcément <span class="process-math">\(a=f\jmat{1\\0},b=f\jmat{0\\1}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-5-5-2-8-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#al1-recap_chap5_app-lin-3-5-5-2-8-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="al1-recap_chap5_app-lin-3-5-5-2-8-2">
+<div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-8-2-1">
+<em class="emphasis">Synthèse:</em> Notons <span class="process-math">\(a=f\jmat{1\\0},b=f\jmat{0\\1}\text{.}\)</span> Alors, pour tout <span class="process-math">\(\jmat{x\\y}\in\mathbb{R}^2\)</span> on a<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-5-5-2-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-5-2-8-2-2">
+\begin{equation*}
+\jmat{x\\y}=x*\jmat{1\\0}+y*\jmat{0\\1}
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-8-2-3">donc, comme <span class="process-math">\(f\)</span> est linéaire,<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-5-5-2-8-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="displaymath process-math" id="al1-recap_chap5_app-lin-3-5-5-2-8-2-4">
+\begin{equation*}
+f\jmat{x\\y}=f\left(x\cdot \jmat{1\\0} + y \cdot \jmat{0\\1}\right) = x\cdot f\jmat{1\\0}+y \cdot f\jmat{0\\1}=ax+by
+\end{equation*}
+</div>
+<div class="para" id="al1-recap_chap5_app-lin-3-5-5-2-8-2-5">exactement comme on voulait.<div class="autopermalink" data-description="Paragraph"><a href="#al1-recap_chap5_app-lin-3-5-5-2-8-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#al1-recap_chap5_app-lin-3-5-5-2-8-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+</li>
+</ul></div></div>
+<div class="autopermalink" data-description="Exercise 1.4"><a href="#al1-recap_chap5_app-lin-3-5-5" title="Copy heading and permalink for Exercise 1.4" aria-label="Copy heading and permalink for Exercise 1.4">🔗</a></div></article><div class="autopermalink" data-description="Exercice 1: Sur les endomorphismes de \R et \R^2"><a href="#al1-recap_chap5_app-lin-3-5" title="Copy heading and permalink for Exercice 1: Sur les endomorphismes de \R et \R^2" aria-label="Copy heading and permalink for Exercice 1: Sur les endomorphismes de \R et \R^2">🔗</a></div></section><div class="autopermalink" data-description="Section 1: — Testez vos réflexes"><a href="#al1-recap_chap5_app-lin-3" title="Copy heading and permalink for Section 1: — Testez vos réflexes" aria-label="Copy heading and permalink for Section 1: — Testez vos réflexes">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="al1-recap_chap5_app-lin.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="al1-recap_chap5_app-lin-4.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
